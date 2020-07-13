@@ -96,3 +96,13 @@ nav li{
 #club p{
     color: rgb(255, 255, 255);
 }
+#decade{
+    background-color: rgb(7, 37, 36);
+    text-align: center;
+}
+#bp{
+    width: 500px;
+}
+#decade p,h1{
+    color: white;
+}
