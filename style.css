@@ -78,6 +78,7 @@ form p{
 #nav2{
   background-color: blueviolet;
   padding: 20px;
+  
 }
 nav ul{
     white-space: nowrap;
@@ -105,4 +106,32 @@ nav li{
 }
 #decade p,h1{
     color: white;
+}
+#manager{
+    background-color: mediumpurple;
+    text-align: center;
+}
+#man{
+    width: 500px;
+}
+#stadium{
+    background-color: mediumpurple;
+    text-align: center;
+}
+#stad h1{
+    color: navy;
+}
+#last{
+    width: 500px;
+}
+#last1{
+    width: 700px;
+    height: 60vh;
+}
+#nav2 a{
+    color: rgb(102, 255, 0);
+}
+footer{
+    background-color: red;
+    text-align: center;
 }
