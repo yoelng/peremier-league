@@ -5,13 +5,13 @@ a{
     padding: 30px;
 }
 #front{
-    background-image: url(img/all2.jpg);
+    background-image: url(img/per.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
 }
 #nav1{
-    position: fixed;
+    position:fixed ;
     width: 100%;
 }
 #news{
@@ -55,4 +55,37 @@ th{
 }
 #tr1{
     background-color: green;
+}
+#history{
+    background-color: blueviolet;
+    text-align: center;
+}
+#history,h1,h2{
+    color: rgb(34, 18, 18);
+    font-family: 'Modak', cursive;
+}
+#account{
+    background-color: blueviolet;
+    text-align: center;
+}
+form p{
+    font-family: 'Modak', cursive;
+}
+#p1{
+    color: brown;
+    font-family: 'Modak', cursive;
+}
+#nav2{
+  background-color: blueviolet;
+  padding: 20px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
 }

@@ -7,7 +7,47 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body>
-    
+<body id="account">
+    <h1>LOG IN</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form>
+                    <label for="user name"></label>
+                    <input type="text" placeholder="user name" required>
+                    <br><br>
+                    <label for="email"></label>
+                    <input type="email" placeholder="email" required>
+                    <br><br>
+                    <label for="password"></label>
+                    <input type="password" placeholder="paaword" required>
+                    <br><br>
+                    <P> select your age:</P>
+                    <input type="radio" name="age" value="0-25">
+                    <label for="option-1">0-25</label>
+                    <input type="radio" name="age" value="26-50">
+                    <label for="option-2">26-50</label>
+                    <input type="radio" name="age" value="50+">
+                    <label for="option-3">50+</label>
+                    <br>
+                    <label for="question">security question:</label>
+                    <select name="question" id="question">
+                        <option value="q1">what is your favorite team?</option>
+                        <option value="q2">who is favorate player?</option>
+                        <option value="q3">which year did you start supporting?</option>
+                        <br><br><br>
+                        <label for="answer">security question answer:</label>
+                        <input type="text" placeholder="answer" id="answer" name="answer">
+                        <br><br>
+                        <label for="bio"></label>
+                        <textarea name="bio" id="bio" cols="19" rows="5" placeholder="about you..."></textarea>
+                        <br>
+                        <input type="submit" value="submit">
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
